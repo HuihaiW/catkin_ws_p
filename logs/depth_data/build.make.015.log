@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target depth_data[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/depth_data.dir/src/depth_data.cpp.o[0m
+[01m[K/home/huihai/catkin_ws_p/src/depth_data/src/depth_data.cpp:[m[K In function ‘[01m[Kvoid callback(const PointCloud2ConstPtr&)[m[K’:
+[01m[K/home/huihai/catkin_ws_p/src/depth_data/src/depth_data.cpp:10:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Header {aka struct std_msgs::Header_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kwidth[m[K’
+     std::cout << pointCloud.[01;31m[Kwidth[m[K << std::endl;
+                             [01;31m[K^~~~~[m[K
+CMakeFiles/depth_data.dir/build.make:62: recipe for target 'CMakeFiles/depth_data.dir/src/depth_data.cpp.o' failed
+make[2]: *** [CMakeFiles/depth_data.dir/src/depth_data.cpp.o] Error 1
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/depth_data.dir/all' failed
+make[1]: *** [CMakeFiles/depth_data.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

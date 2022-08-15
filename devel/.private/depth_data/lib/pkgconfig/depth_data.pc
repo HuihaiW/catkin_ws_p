@@ -1,0 +1,8 @@
+prefix=/home/huihai/catkin_ws_p/devel/.private/depth_data
+
+Name: depth_data
+Description: Description of depth_data
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
