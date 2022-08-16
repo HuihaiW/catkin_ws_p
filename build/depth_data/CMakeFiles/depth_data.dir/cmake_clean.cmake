@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/depth_data.dir/src/depth_data.cpp.o"
-  "/home/huihai/catkin_ws_p/devel/.private/depth_data/lib/depth_data/depth_data.pdb"
   "/home/huihai/catkin_ws_p/devel/.private/depth_data/lib/depth_data/depth_data"
+  "/home/huihai/catkin_ws_p/devel/.private/depth_data/lib/depth_data/depth_data.pdb"
+  "CMakeFiles/depth_data.dir/src/depth_data.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

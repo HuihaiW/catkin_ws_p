@@ -1,6 +1,0 @@
-Finding K4A SDK binaries
---------------------------------------------/home/huihai/catkin_ws_p/src/Azure_Kinect_ROS_Driver/cmake-----------------------------------------
-!!! Body Tracking SDK found: body tracking features will be available !!!
-K4A Libs: k4a::k4a;k4a::k4arecord;k4abt::k4abt
-K4A DLLs: /usr/lib/x86_64-linux-gnu/libk4a.so.1.4.1;/usr/lib/x86_64-linux-gnu/libk4arecord.so.1.4.1;/usr/lib/libk4abt.so.1.1.1
-K4A Install Needed: FALSE

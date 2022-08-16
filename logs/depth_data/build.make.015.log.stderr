@@ -1,7 +1,7 @@
 [01m[K/home/huihai/catkin_ws_p/src/depth_data/src/depth_data.cpp:[m[K In function ‘[01m[Kvoid callback(const PointCloud2ConstPtr&)[m[K’:
-[01m[K/home/huihai/catkin_ws_p/src/depth_data/src/depth_data.cpp:10:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::Header {aka struct std_msgs::Header_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kwidth[m[K’
-     std::cout << pointCloud.[01;31m[Kwidth[m[K << std::endl;
-                             [01;31m[K^~~~~[m[K
-make[2]: *** [CMakeFiles/depth_data.dir/src/depth_data.cpp.o] Error 1
-make[1]: *** [CMakeFiles/depth_data.dir/all] Error 2
-make: *** [all] Error 2
+[01m[K/home/huihai/catkin_ws_p/src/depth_data/src/depth_data.cpp:18:57:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<sensor_msgs::ChannelFloat32_<std::allocator<void> > >, sensor_msgs::ChannelFloat32_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct sensor_msgs::ChannelFloat32_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kr[m[K’
+   18 |  std::cout << "xyz value is: " << out_Cloud.channels[i].[01;31m[Kr[m[K << "," << out_Cloud.points[i].y << "," << out_Cloud.points[i].z << std::endl;
+      |                                                         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/depth_data.dir/build.make:63: CMakeFiles/depth_data.dir/src/depth_data.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/depth_data.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

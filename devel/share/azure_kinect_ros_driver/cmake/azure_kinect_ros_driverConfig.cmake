@@ -1,1 +1,0 @@
-/home/huihai/catkin_ws_p/devel/.private/azure_kinect_ros_driver/share/azure_kinect_ros_driver/cmake/azure_kinect_ros_driverConfig.cmake
