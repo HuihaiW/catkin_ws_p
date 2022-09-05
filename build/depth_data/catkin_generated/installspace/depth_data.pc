@@ -1,4 +1,4 @@
-prefix=/home/huihai/catkin_ws_p/install
+prefix=/home/huihai/Huihai/catkin_ws_p/install
 
 Name: depth_data
 Description: Description of depth_data

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "depth_data"
-PROJECT_SPACE_DIR = "/home/huihai/catkin_ws_p/install"
+PROJECT_SPACE_DIR = "/home/huihai/Huihai/catkin_ws_p/install"
 PROJECT_VERSION = "0.0.0"

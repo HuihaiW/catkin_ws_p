@@ -67,14 +67,14 @@ set(depth_data_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(depth_data_SOURCE_PREFIX /home/huihai/catkin_ws_p/src/depth_data)
-  set(depth_data_DEVEL_PREFIX /home/huihai/catkin_ws_p/devel/.private/depth_data)
+  set(depth_data_SOURCE_PREFIX /home/huihai/Huihai/catkin_ws_p/src/depth_data)
+  set(depth_data_DEVEL_PREFIX /home/huihai/Huihai/catkin_ws_p/devel/.private/depth_data)
   set(depth_data_INSTALL_PREFIX "")
   set(depth_data_PREFIX ${depth_data_DEVEL_PREFIX})
 else()
   set(depth_data_SOURCE_PREFIX "")
   set(depth_data_DEVEL_PREFIX "")
-  set(depth_data_INSTALL_PREFIX /home/huihai/catkin_ws_p/install)
+  set(depth_data_INSTALL_PREFIX /home/huihai/Huihai/catkin_ws_p/install)
   set(depth_data_PREFIX ${depth_data_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/huihai/catkin_ws_p/install/lib;/home/huihai/catkin_ws_p/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/huihai/Huihai/catkin_ws_p/install/lib;/home/huihai/Huihai/catkin_ws_p/devel/lib;/home/huihai/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(depth_data_LIBRARIES ${depth_data_LIBRARIES})
 
   _list_append_unique(depth_data_LIBRARY_DIRS ${${depth_data_dep}_LIBRARY_DIRS})
-  _list_append_deduplicate(depth_data_EXPORTED_TARGETS ${${depth_data_dep}_EXPORTED_TARGETS})
+  list(APPEND depth_data_EXPORTED_TARGETS ${${depth_data_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")
