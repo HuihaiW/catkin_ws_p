@@ -13,12 +13,15 @@ sensor_msgs::PointCloud out_Cloud;
 void callback(const sensor_msgs::PointCloud2ConstPtr& cloud_msgs){
     pointCloud = *cloud_msgs;
     sensor_msgs::convertPointCloud2ToPointCloud(pointCloud, out_Cloud);
-    std::cout << out_Cloud.points.size() << std::endl;
+    //std::cout << out_Cloud.points.size() << std::endl;
     //
     //
     for(int i = 0; i < out_Cloud.points.size(); ++i){
 	//std::cout << out_Cloud.channels[0] << std::endl;
+	
 	//std::cout << "xyz value is: " << out_Cloud.channels[i]<< "," << out_Cloud.points[i].y << "," << out_Cloud.points[i].z << std::endl;
+	std::cout << "xyz value is: " << out_Cloud.points[i].rgb << std::endl;
+
     }
 }
 

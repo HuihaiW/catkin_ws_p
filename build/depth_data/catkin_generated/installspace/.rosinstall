@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/huihai/Huihai/catkin_ws_p/install/setup.sh
+    local-name: /home/huihai/catkin_ws_p/install/setup.sh

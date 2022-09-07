@@ -1,6 +1,6 @@
-devel_space: /home/huihai/Huihai/catkin_ws_p/devel
+devel_space: /home/huihai/catkin_ws_p/devel
 install: false
-install_space: /home/huihai/Huihai/catkin_ws_p/install
+install_space: /home/huihai/catkin_ws_p/install
 profile: default
-source_space: /home/huihai/Huihai/catkin_ws_p/src
-workspace: /home/huihai/Huihai/catkin_ws_p
+source_space: /home/huihai/catkin_ws_p/src
+workspace: /home/huihai/catkin_ws_p
